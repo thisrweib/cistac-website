@@ -1,9 +1,10 @@
 🔧 Features
 🏨 Hotel listing and management system
-🧑‍💼 Role-based access (Admin, Hotel Manager, Guest)
+📊 Inventory, Staff, Request Management system
+🧑‍💼 Role-based access (Admin, Customer, Staff)
 🗓️ Reservation and booking system
 ⭐ Review & rating functionality
-📊 Dashboard with key statistics and insights
+📊 Admin Dashboard with key statistics and insights
 🤖 Recommendation engine using collaborative filtering
 💡 Built with modern technologies (Node.js, Express, SQLite, React, etc.)
 
