@@ -1,0 +1,65 @@
+﻿@model IEnumerable<CistacApp.Models.Hotel>
+
+@{
+    ViewData["PageTitle"] = "Available Hotels";
+}
+
+@if (Model != null && Model.Any())
+{
+    <div class="hotel-list-container mt-3">
+        <div class="row">
+            @* Bootstrap row to contain columns *@
+            @foreach (var hotel in Model)
+            {
+                <div class="col-md-6 mb-4 d-flex align-items-stretch">
+                    @* col-md-6 makes it 2 columns on medium screens and up. d-flex and align-items-stretch for equal height cards in a row. *@
+                    <div class="hotel-card flex-fill">
+                        @* Added flex-fill to make card take up full height of the column wrapper *@
+                        <div class="hotel-card-header">
+                            <h5 class="hotel-name mb-0">@Html.DisplayFor(modelItem => hotel.Name)</h5>
+                            @if (!string.IsNullOrEmpty(hotel.Location))
+                            {
+                                <small class="hotel-location text-muted">@Html.DisplayFor(modelItem => hotel.Location)</small>
+                            }
+                        </div>
+                        <div class="hotel-card-body">
+                            <p class="card-text mb-1">
+                                @if (hotel.Rating.HasValue)
+                                {
+                                    <span class="hotel-detail"><strong>Rating:</strong> @Html.DisplayFor(modelItem => hotel.Rating)/5.0</span>
+
+                                    <br />
+                                }
+                                @if (!string.IsNullOrEmpty(hotel.EMail))
+                                {
+                                    <span class="hotel-detail"><strong>Email:</strong> @Html.DisplayFor(modelItem => hotel.EMail)</span>
+
+                                    <br />
+                                }
+                                @if (!string.IsNullOrEmpty(hotel.PhoneNumber))
+                                {
+                                    <span class="hotel-detail"><strong>Phone:</strong> @Html.DisplayFor(modelItem => hotel.PhoneNumber)</span>
+                                }
+                            </p>
+                        </div>
+                        <div class="hotel-card-footer">
+                            <small class="text-muted">(Actions placeholder)</small>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+}
+else
+{
+    <div class="alert alert-info mt-3" role="alert">
+        No hotels found in the database.
+    </div>
+}
+
+@section Scripts {
+    <script>
+        console.log("Hotel listing page (2-column card view) JavaScript executed.");
+    </script>
+}

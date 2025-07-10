@@ -1,0 +1,218 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+  color: var(--bs-secondary-color);
+  text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+  text-align: start;
+}
+
+/* General Body Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Top Navigation Bar */
+.top-navbar {
+    background-color: #ffffff;
+    padding: 10px 20px; /* Adjusted padding slightly if needed */
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    height: 70px; /* UPDATED: Increased navbar height */
+    display: flex;
+    align-items: center;
+}
+
+    .top-navbar .container-fluid {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .top-navbar .logo .logo-image {
+        max-height: 50px; /* UPDATED: Control logo image height, adjust as needed */
+        width: auto; /* Maintain aspect ratio */
+    }
+
+    .top-navbar .main-menu ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+
+    .top-navbar .main-menu .nav-item {
+        margin-left: 12px; /* Adjusted spacing slightly */
+        margin-right: 12px;
+    }
+
+    .top-navbar .main-menu .nav-link {
+        color: #454545; /* Slightly darker for better readability */
+        font-weight: 500; /* UPDATED: Made slightly bolder */
+        font-size: 0.95rem; /* UPDATED: Made slightly larger */
+        text-transform: uppercase;
+        padding: 8px 10px; /* Adjusted padding slightly */
+        text-decoration: none;
+        border-radius: 4px;
+        transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    }
+
+        .top-navbar .main-menu .nav-link:hover,
+        .top-navbar .main-menu .nav-link.active {
+            color: #0056b3; /* Darker blue for hover/active */
+            background-color: #e9ecef; /* Lighter gray for hover/active background */
+        }
+
+    .top-navbar .user-info {
+        display: flex;
+        align-items: center;
+        color: #333;
+    }
+
+        .top-navbar .user-info span {
+            margin-right: 10px;
+            font-size: 0.9rem;
+        }
+
+        .top-navbar .user-info .user-initials {
+            background-color: #007bff;
+            color: white;
+            border-radius: 50%;
+            width: 36px; /* Slightly larger */
+            height: 36px; /* Slightly larger */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 500;
+            font-size: 1rem; /* Slightly larger */
+        }
+
+/* Page Title Bar */
+.page-title-bar {
+    background-color: #ffffff;
+    padding: 15px 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+    .page-title-bar h2 {
+        margin: 0;
+        font-size: 1.25rem;
+        font-weight: 500;
+        color: #333;
+    }
+
+/* Main Content Area */
+.main-content {
+    flex-grow: 1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+    .main-content > main {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.05);
+    }
+
+/* STYLES FOR HOTEL CARDS */
+.hotel-list-container .row {
+    /* You can add display: flex; flex-wrap: wrap; here if you want to ensure cards naturally wrap and have equal height within a row without the d-flex on col */
+}
+
+.hotel-card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+    display: flex; /* Make card a flex container */
+    flex-direction: column; /* Stack its children (header, body, footer) vertically */
+    width: 100%; /* Ensure card takes full width of its column */
+    /* height: 100%; Removed this as flex-fill on the card and align-items-stretch on the column wrapper handles it better */
+}
+
+.hotel-card-header {
+    padding: 12px 15px;
+    border-bottom: 1px solid #f0f2f5;
+    background-color: #f8f9fa;
+}
+
+    .hotel-card-header .hotel-name {
+        font-size: 1.1rem;
+        font-weight: 500;
+        color: #007bff;
+    }
+
+    .hotel-card-header .hotel-location {
+        font-size: 0.85rem;
+    }
+
+.hotel-card-body {
+    padding: 15px;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    flex-grow: 1; /* Allows body to expand and push footer down, helps with equal height */
+}
+
+    .hotel-card-body .hotel-detail {
+        display: block;
+        margin-bottom: 4px;
+    }
+
+        .hotel-card-body .hotel-detail strong {
+            color: #495057;
+        }
+
+.hotel-card-footer {
+    padding: 10px 15px;
+    background-color: #f8f9fa;
+    border-top: 1px solid #f0f2f5;
+    text-align: right;
+}
+
+/* Styles for table if you still have it elsewhere (from previous step) */
+.table thead.thead-light th {
+    background-color: #f8f9fa;
+    color: #495057;
+    font-weight: 500;
+    border-bottom-width: 1px;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f0f2f5;
+}
+
+.table td, .table th {
+    vertical-align: middle;
+}
