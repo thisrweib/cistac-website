@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .btn-secondary {
+    @apply px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition-colors;
+  }
+  .card {
+    @apply bg-white rounded-lg shadow-lg p-6;
+  }
+  .input-field {
+    @apply w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition duration-150 ease-in-out;
+  }
+}
+
+/* Fix footer overflow */
+footer {
+  @apply overflow-hidden;
+}
+
+.footer-content {
+  @apply container mx-auto px-4;
+}
+
+/* TOAST CONTAINER - Sağ üst köşe yerleşim */
+.toast-container {
+  @apply font-sans z-50;
+  position: fixed !important;
+  top: 1rem !important;
+  right: 1rem !important;
+  bottom: auto !important;
+  left: auto !important;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 2rem;
+  border-radius: 20rem
+}
+
+/* ORTAK TOAST STİLİ */
+/* BAŞARI MESAJI */
+.toast-success {
+  @apply font-sans text-sm text-white px-5 py-4 rounded-2xl shadow-xl w-80 backdrop-blur-md bg-green-500 bg-opacity-90 border-l-4 border-green-700 z-50;
+  position: fixed !important;
+  top: 1rem !important;
+  right: 1rem !important;
+  bottom: auto !important;
+  left: auto !important;
+  animation: fadeInSlide 0.3s ease-out;
+}
+
+/* HATA MESAJI */
+.toast-error {
+  @apply font-sans text-sm text-white px-5 py-4 rounded-2xl shadow-xl w-80 backdrop-blur-md bg-red-500 bg-opacity-90 border-l-4 border-red-700 z-50;
+  position: fixed !important;
+  top: 1rem !important;
+  right: 1rem !important;
+  bottom: auto !important;
+  left: auto !important;
+  animation: fadeInSlide 0.3s ease-out;
+}
+
+/* BİLGİLENDİRME MESAJI */
+.toast-info {
+  @apply font-sans text-sm text-white px-5 py-4 rounded-2xl shadow-xl w-80 backdrop-blur-md bg-blue-500 bg-opacity-90 border-l-4 border-blue-700 z-50;
+  position: fixed !important;
+  top: 1rem !important;
+  right: 1rem !important;
+  bottom: auto !important;
+  left: auto !important;
+  animation: fadeInSlide 0.3s ease-out;
+}
+
+/* UYARI MESAJI */
+.toast-warning {
+  @apply font-sans text-sm text-black px-5 py-4 rounded-2xl shadow-xl w-80 backdrop-blur-md bg-yellow-400 bg-opacity-90 border-l-4 border-yellow-600 z-50;
+  position: fixed !important;
+  top: 1rem !important;
+  right: 1rem !important;
+  bottom: auto !important;
+  left: auto !important;
+  animation: fadeInSlide 0.3s ease-out;
+}
+
+/* ANİMASYON */
+@keyframes fadeInSlide {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/* ANİMASYON */
+@keyframes fadeInSlide {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

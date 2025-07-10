@@ -1,0 +1,595 @@
+{
+  "common": {
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "approve": "Approve",
+    "reject": "Reject",
+    "validation": {
+      "required":"This field is required."
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "hotels": "Hotels",
+    "admin": "Dashboard",
+    "login": "Login",
+    "logout": "Logout",
+    "welcome": "Welcome",
+    "myBookings": "My Bookings",
+    "recommendation": "Recommendation By AI",
+    "requests": "Requests",
+    "galleries": "Galleries",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+ 
+  "hotels": {
+    "title": "Available Hotels",
+    "search": "Search hotels...",
+    "location": "All Locations",
+    "price": "All Prices",
+    "viewDetails": "View Details",
+    "bookNow": "Book Now",
+    "filters": {
+      "title": "Filters",
+      "clear": "Clear Filters",
+      "priceRange": "Price Range",
+      "roomType": "Room Type",
+      "capacity": "Capacity"
+    }
+  },
+  "booking": {
+    "title": "Booking Details",
+    "subtitle": "Complete your reservation",
+    "summary": "Booking Summary",
+    "payment": "Payment Details",
+    "confirm": "Confirm Payment",
+    "cancel": "Cancel Booking",
+    "checkIn": "Check-in Date",
+    "checkOut": "Check-out Date",
+    "guests": "Number of Guests",
+    "guest": "Guest",
+    "totalPrice": "Total Price",
+    "roomDetails": "Room Details",
+    "specialRequests": "Special Requests",
+    "proceedToPayment": "Make a Reservation ",
+    "perNight": "per night",
+    "nights": "Nights",
+    "nightsCount": "nights",
+    "basePrice": "Base Price",
+    "taxes": "Taxes & Fees",
+    "total": "Total",
+    "reservation": "Reservation",
+    "bookingHotel": "Booking Hotel",
+    "bookingRoom": "Booking Room",
+    "dateConflictMessage": "This room is already booked for the selected dates. Please choose different dates."
+
+  },
+  "admin": {
+    "dashboard": {
+      "title": "Admin Dashboard",
+      "totalBookings": "Total Bookings",
+      "revenue": "Revenue",
+      "pendingApprovals": "Pending Approvals",
+      "occupancyRate": "Occupancy Rate",
+      "hotelManagement": "Hotel Management",
+      "recentBookings": "Recent Bookings",
+      "newToday": "new today",
+      "thisMonth": "this month",
+      "hotelName": "Hotel Name",
+      "location": "Location",
+      "rooms": "Rooms",
+      "occupancy": "Occupancy",
+      "actions": "Actions"
+    },
+    "addHotel": {
+      "title": "Add New Hotel",
+      "hotelName": "Hotel Name",
+      "description": "Description",
+      "location": "Location",
+      "imageUrl": "Image URL",
+      "rooms": "Rooms",
+      "roomNumber": "Room Number",
+      "roomType": "Room Type",
+      "standardRoom": "Standard Room",
+      "deluxeRoom": "Deluxe Room",
+      "suite": "Suite",
+      "price": "Price",
+      "capacity": "Capacity",
+      "addRoom": "Add Room",
+      "removeRoom": "Remove Room",
+      "submit": "Add Hotel",
+      "eMail": "E-Mail",
+      "hotelAmenities": "Hotel Amenities",
+      "phoneNumber": "Phone Number"
+    },
+    "editRoom": "Edit Room",
+    "addRoom": {
+      "title": "Add New Room",
+      "description": "Description",
+      "location": "Location",
+      "imageUrl": "Image URL",
+      "rooms": "Rooms",
+      "roomNumber": "Room Number",
+      "roomType": "Room Type",
+      "standardRoom": "Standard Room",
+      "deluxeRoom": "Deluxe Room",
+      "suite": "Suite",
+      "price": "Price",
+      "capacity": "Capacity",
+      "addRoom": "Add Room",
+      "removeRoom": "Remove Room",
+      "submit": "Add Room",
+      "eMail": "E-Mail",
+      "roomAmenities": "Room Amenities",
+      "phoneNumber": "Phone Number"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Sign in to your account",
+      "email": "Email address",
+      "submit": "Sign in",
+      "forgotPassword": "Forgot password?",
+      "noAccount": "Don't have an account?",
+      "signIn": "Sign In",
+      "signUp": "Sign Up",
+      "needAccount": "Need an account? Register",
+      "haveAccount": "Already have an account? Login",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "firstNameRequired": "First name is required",
+      "lastNameRequired": "Last name is required",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Invalid email",
+      "phone": "Phone Number",
+      "phoneRequired": "Phone number is required",
+      "phoneLength": "Phone number must be 11 characters",
+      "password": "Password",
+      "passwordRequired": "Password is required",
+      "passwordMinLength": "Minimum 6 characters",
+      "createAccount": "Create Account",
+      "loading": "Loading...",
+      "errorMessage": "Incorrect username or password.",
+      "error": "Error!"
+      }
+  },
+  "serviceRequest": {
+    "title": {
+      "customer": "Service Request",
+      "staff": "Request assigned to {{name}} {{surname}}"
+    },
+    "requestId": "Request",
+    "roomId": "Room ID",
+    "status": {
+      "pending": "Pending",
+      "in progress": "In Progress",
+      "completed": "Completed"
+    },
+    "button": {
+      "markInProgress": "Mark as In Progress",
+      "markCompleted": "Mark as Completed"
+    },
+    "noRequests": {
+      "message": "You don't have any service requests yet.",
+      "link": "Go to My Bookings"
+    },
+      "staffDashboard": {
+      "title": "Staff Dashboard",
+      "name": "Full Name",
+      "position": "Position",
+      "shift": "Shift",
+      "phone": "Phone",
+      "hotelName": "Hotel Name",
+      "location": "Location",
+      "rating": "Rating",
+      "hotelPhone": "Hotel Phone"
+  }
+  },
+  "home": {
+    "hero": {
+      "title": "Find Your Perfect Stay",
+      "subtitle": "Discover luxury hotels and comfortable rooms at the best prices",
+      "button": "Browse Hotels"
+    },
+    "featured": {
+      "title": "Featured Hotels",
+      "viewDetails": "View Details"
+    },
+    "reviews": {
+      "title": "What Our Guests Say"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "subtitle": "Have questions? We're here to help you with your booking needs.",
+      "phone": "+1 (555) 123-4567",
+      "email": "supportcistac.com",
+      "address": "Beşyol, İnönü Street No:38, 34295 Küçükçekmece/Istanbul",
+      "form": {
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "namePlaceholder": "Your name",
+        "emailPlaceholder": "your@email.com",
+        "messagePlaceholder": "Your message",
+        "button": "Send Message"
+      }
+    },
+    "footer": {
+      "title": "CISTAC",
+      "description": "Your trusted partner for finding the perfect accommodation.",
+      "quickLinks": "Quick Links",
+      "support": "Support",
+      "newsletter": {
+        "title": "Newsletter",
+        "subtitle": "Subscribe to get special offers and updates.",
+        "placeholder": "Your email",
+        "button": "Subscribe"
+      },
+      "links": {
+        "about": "About Us",
+        "hotels": "Our Hotels",
+        "rooms": "Room Types",
+        "contact": "Contact",
+        "faq": "FAQs",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service",
+        "cancellation": "Cancellation Policy"
+      },
+      "copyright":
+        "© 2025 CISTAC. All rights reserved."
+    }
+  },
+   "recommendationDialog": {
+      "title": "Rooms recommended for you based on your past stays by AI",
+      "room": "{{type}} Room",
+      "roomFrom": "Room from {{hotelName}}",
+      "moreAmenities": "+{{count}} more...",
+      "pricePerNight": "${{price}}/night",
+      "viewButton": "View"
+    },
+  "hotelDetail": {
+    "aboutHotel": "About the Hotel",
+    "email": "Email",
+    "rating": "Rating",
+    "phoneNumber": "Phone Number",
+    "amenities": "Amenities",
+    "availableRooms": "Available Rooms",
+    "capacity": "Capacity",
+    "persons": "persons",
+    "available": "Available",
+    "notAvailable": "Not Available",
+    "underMaintenance": "Under Maintenance",
+    "bookNow": "Book Now",
+    "quickBooking": "Quick Booking",
+    "clearFilters": "Clear Filters",
+    "checkInDate": "Check-in Date",
+    "checkOutDate": "Check-out Date",
+    "guests": "Guests",
+    "guest": "Guest",
+    "guests_plural": "Guests",
+    "roomType": "Room Type",
+    "allTypes": "All Types",
+    "standard": "Standard",
+    "deluxe": "Deluxe",
+    "suite": "Suite",
+    "priceRange": "Price Range",
+    "min": "Min",
+    "max": "Max",
+    "reviews": "Reviews",
+    "noReviews": "There are no reviews for this hotel.",
+    "showMore": "Show More",
+    "showLess": "Show Less",
+    "perNight": "per night",
+    "bookedFor": "Booked for",
+    "currentlyUnavailable": "Currently unavailable"
+  },
+   "roomDetail": {
+      "close": "Close",
+      "roomNumber": "Room",
+      "perNight": "per night",
+      "features": "Room Features",
+      "person": "Person Capacity",
+      "persons": "Persons Capacity",
+      "description": "Description",
+      "descriptionText": "Experience luxury and comfort in our {{type}}. This spacious room is perfectly suited for {{capacity}} {{guestText}}, featuring modern amenities and elegant furnishings to ensure a comfortable stay.",
+      "policies": "Room Policies",
+      "checkIn": "Check-in: 2:00 PM",
+      "checkOut": "Check-out: 12:00 PM",
+      "noSmoking": "No smoking",
+      "bookNow": "Book Now",
+      "guest": "guest",
+      "guests": "guests",
+      "goBack": "Go Back",    
+      "loading": "Loading room details..."
+    },
+    "hotelList": {
+    "availableHotels": "Available Hotels",
+    "searchPlaceholder": "Search hotels...",
+    "allLocations": "All Locations",
+    "allPrices": "All Prices",
+    "viewDetails": "View Details",
+    "noHotelsFound": "No hotels found matching your criteria."
+  },
+  "recommendation": {
+    "title": "Personalized Room Suggestions",
+    "subtitle": "Discover the best rooms recommended based on your past stays",
+    "roomSuffix": "Room",
+    "from": "From",
+    "moreText": "more...",
+    "viewButton": "View",
+    "noRoomsTitle": "No recommendations found yet",
+    "noRoomsText": "To provide suggestions, you need to have stayed at a hotel previously.",
+    "night": "night"
+  },
+   "accessDenied": {
+    "title": "Access Denied",
+    "message": "You do not have permission to access this page.",
+    "backButton": "Return to Home"
+  },
+   "bookingHistory": {
+    "title": "My Bookings",
+    "sections": {
+      "ongoing": {
+        "title": "Ongoing Bookings",
+        "noBookings": "You don't have any ongoing booking yet.",
+        "reservationLabel": "Reservation #{{bookingId}}",
+        "checkIn": "Check-in",
+        "checkOut": "Check-out",
+        "total": "Total",
+        "requestButton": "Request"
+      },
+      "active": {
+        "title": "Active Bookings",
+        "noBookings": "You don't have any active booking yet.",
+        "reservationLabel": "Reservation #{{bookingId}}",
+        "checkIn": "Check-in",
+        "checkOut": "Check-out",
+        "total": "Total",
+        "leaveFeedbackButton": "Leave Feedback"
+      },
+      "past": {
+        "title": "Past Bookings",
+        "noBookings": "You don't have any past booking yet.",
+        "reservationLabel": "Reservation #{{bookingId}}",
+        "checkIn": "Check-in",
+        "checkOut": "Check-out",
+        "total": "Total",
+        "leaveFeedbackButton": "Leave Feedback",
+        "yourRating": "Your rating: {{rating}}/5"
+      }
+    },
+    "statuses": {
+      "confirmed": "Confirmed",
+      "completed": "Completed",
+      "pending": "Pending",
+      "cancelled": "Cancelled",
+      "checkedIn": "Checked In",
+      "checkedOut": "Checked Out"
+    },
+    "noBookingsOverall": "You don't have any bookings yet."
+  },
+   "bookingPayment": {
+    "title": "Booking Summary",
+    "roomType": "Room Type",
+    "checkInDate": "Check-in Date",
+    "checkOutDate": "Check-out Date",
+    "numberOfGuests": "Number of Guests",
+    "totalAmount": "Total Amount",
+    "paymentDetailsTitle": "Payment Details",
+    "form": {
+      "cardHolderName": "Card Holder Name",
+      "cardNumber": "Card Number",
+      "expiryDate": "Expiry Date",
+      "expiryDatePlaceholder": "MM/YY",
+      "cvv": "CVV",
+      "cancelButton": "Cancel",
+      "confirmPaymentButton": "Confirm Payment"
+    }
+  },
+    "feedbackDialog": {
+    "title": "Leave Feedback",
+    "overallRating": "Overall Rating",
+    "additionalComments": "Additional Comments",
+    "commentPlaceholder": "Share your experience...",
+    "cancelButton": "Cancel",
+    "submitButton": "Submit Feedback"
+  },
+    "requestDialog": {
+    "title": "Send Request",
+    "additionalComments": "Additional Request",
+    "commentPlaceholder": "Share your request...",
+    "cancelButton": "Cancel",
+    "submitButton": "Submit Request"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Have questions? We're here to help and would love to hear from you.",
+    "getInTouch": "Get in Touch",
+    "phone": "Phone",
+    "phoneHours": "Mon-Fri from 8am to 6pm",
+    "emailAddress": "support@cistac.com",
+    "emailResponse": "We'll respond within 24 hours",
+    "followUs": "Follow Us"
+  },
+   "aboutUs": {
+    "hero": {
+      "title": "About CISTAC",
+      "description": "Your trusted partner in hotel management, providing exceptional service and unforgettable experiences since 2020."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To revolutionize hotel management through innovative technology solutions while maintaining the highest standards of customer service and operational excellence."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To become the global leader in hotel management systems, setting new standards for efficiency, guest satisfaction, and sustainable hospitality practices."
+    },
+    "coreValues": {
+      "title": "Our Core Values",
+      "innovation": {
+        "title": "Innovation",
+        "description": "Continuously improving our technology to provide cutting-edge solutions."
+      },
+      "customerFocus": {
+        "title": "Customer Focus",
+        "description": "Putting our customers first in everything we do."
+      },
+      "excellence": {
+        "title": "Excellence",
+        "description": "Striving for excellence in every aspect of our service."
+      }
+    },
+    "team": {
+      "title": "Our Leadership Team",
+      "ceo": {
+        "position": "Artificial Intelligence",
+        "description": "20+ years of experience in hospitality management and technology."
+      },
+      "cto": {
+        "position": "Front-End Developer",
+        "description": "Leading innovation in hotel management systems."
+      },
+      "coo": {
+        "position": "Back-End Developer",
+        "description": "Expert in streamlining hotel operations and customer service."
+      }
+    }
+  },
+   "inventoryManagement": {
+    "title": "Inventory Management",
+    "filterByHotel": "Filter by Hotel:",
+    "allHotels": "All Hotels",
+    "addNewItem": "Add New Item",
+    "lowStockAlert": "Low Stock Alert",
+    "item": "Item",
+    "category": "Category",
+    "currentStock": "Current Stock",
+    "lastRestocked": "Last Restocked",
+    "actions": "Actions",
+    "updateStock": "Update Stock",
+    "addNewInventoryItem": "Add New Item",
+    "itemName": "Item Name",
+    "hotel": "Hotel",
+    "cancel": "Cancel",
+    "addItem": "Add Item",
+    "updateStockTitle": "Update Stock",
+    "update": "Update",
+    "lowStockItem": "{{itemName}} ({{currentStock}} remaining) - ({{hotelName}})"
+
+  },
+  "categories": {
+    "Linens": "Linens",
+    "Toiletries": "Toiletries",
+    "Beverages": "Beverages",
+    "Guest Supplies": "Guest Supplies",
+    "Snacks": "Snacks"
+  },
+    "staff-management": {
+    "title": "Staff Management",
+    "filterLabel": "Filter by Hotel:",
+    "filterOptionAll": "All Hotels",
+    "buttonAddStaff": "Add Staff Member",
+    "scheduleTitle": "Staff Schedule",
+    "tableHeaders": {
+      "name": "Name",
+      "role": "Role",
+      "contact": "Contact",
+      "shift": "Shift",
+      "createdAt": "Created At",
+      "hotel": "Hotel",
+      "actions": "Actions"
+    },
+    "modalAddTitle": "Add New Staff Member",
+    "modalEditTitle": "Edit Staff Member",
+    "formLabels": {
+      "name": "Name",
+      "surname": "Surname",
+      "hotel": "Hotel",
+      "role": "Role",
+      "defaultShift": "Default Shift",
+      "contactNumber": "Contact Number",
+      "email": "Email"
+    },
+    "formRoleGroups": {
+      "management": "Management",
+      "receptionFrontOffice": "Reception & Front Office",
+      "housekeepingMaintenance": "Housekeeping & Maintenance",
+      "serviceCulinary": "Service & Culinary",
+      "spaWellness": "Spa & Wellness",
+      "activitiesSecurity": "Activities & Security"
+    },
+    "formRoles": {
+      "Manager": "Manager",
+      "Guest Relations Officer": "Guest Relations Officer",
+      "Concierge (Chief Butler)": "Concierge (Chief Butler)",
+      "Receptionist": "Receptionist",
+      "Concierge": "Concierge",
+      "Bellhop": "Bellhop",
+      "Bellhop (St. Regis Butler)": "Bellhop (St. Regis Butler)",
+      "Housekeeping Supervisor": "Housekeeping Supervisor",
+      "Cleaner": "Cleaner",
+      "Maintenance": "Maintenance",
+      "Waiter/Waitress": "Waiter/Waitress",
+      "Bartender": "Bartender",
+      "Chef": "Chef",
+      "Chef (Palace Cuisine)": "Chef (Palace Cuisine)",
+      "Chef (Resort Cuisine)": "Chef (Resort Cuisine)",
+      "Spa Therapist": "Spa Therapist",
+      "Pool Attendant": "Pool Attendant",
+      "Activities Coordinator": "Activities Coordinator",
+      "Security": "Security"
+    },
+    "formShifts": {
+      "Morning": "Morning",
+      "Afternoon": "Afternoon",
+      "Night": "Night",
+      "Day": "Day",
+      "Evening": "Evening"
+    },
+    "buttons": {
+      "cancel": "Cancel",
+      "addStaff": "Add Staff Member",
+      "editStaff": "Edit Staff Member",
+      "deleteStaff": "Delete Staff Member"
+    }
+  },
+  "reservations": {
+    "title":"All Reservations",
+    "filterLabel": "Filter by Hotel:",
+    "allHotels": "All Hotels",
+    "tableHeader":{
+      "reservationId": "Reservation Number",
+      "user": "Name and Surname",
+      "hotelName": "Hotel Name",
+      "roomNumber":"Room Number",
+      "reservationDate":"Reservation Date",
+      "reservationStatus": "Reservation Status"
+    }
+  },
+  "dashboardTabs": {
+    "hotels": "Hotels",
+    "inventory": "Inventory",
+    "staff": "Staff",
+    "reservation":"All Reservations"
+  },
+  "toastr": {
+    "success": "Completed Successfully",
+    "error": "Error! Please try again!",
+    "login": {
+      "success": "Login successful!",
+      "welcome": "Welcome",
+      "error": "Login failed. Please check your credentials.",
+      "errorTitle": "Error"
+    },
+    "register": {
+        "success": "You have successfully registered!",
+        "error": "Registration failed. Please check your information.",
+        "errorTitle": "Error"
+    }
+  }
+}

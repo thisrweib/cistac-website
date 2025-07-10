@@ -1,0 +1,595 @@
+{
+  "common": {
+    "cancel": "İptal",
+    "submit": "Gönder",
+    "save": "Kaydet",
+    "delete": "Sil",
+    "edit": "Düzenle",
+    "close": "Kapat",
+    "approve": "Onayla",
+    "reject": "Reddet",
+      "validation": {
+        "required":"Bu alan zorunludur."
+      }
+    },
+    "nav": {
+      "home": "Anasayfa",
+      "hotels": "Oteller",
+      "admin": "Yönetim Paneli",
+      "login": "Giriş",
+      "logout": "Çıkış",
+      "welcome": "Hoşgeldiniz",
+      "myBookings": "Rezervasyonlarım",
+      "recommendation": "Yapay Zeka Önerisi",
+      "requests": "Talepler",
+      "galleries": "Galeri",
+      "about": "Hakkımızda",
+      "contact": "İletişim"
+    },
+    "hotels": {
+      "title": "Mevcut Oteller",
+      "search": "Otellerde ara...",
+      "location": "Tüm Lokasyonlar",
+      "price": "Tüm Fiyatlar",
+      "viewDetails": "Detayları Gör",
+      "bookNow": "Şimdi Rezervasyon Yap",
+      "filters": {
+        "title": "Filtreler",
+        "clear": "Filtreleri Temizle",
+        "priceRange": "Fiyat Aralığı",
+        "roomType": "Oda Tipi",
+        "capacity": "Kapasite"
+      }
+    },
+  "booking": {
+    "title": "Rezervasyon Detayları",
+    "subtitle": "Rezervasyonunuzu tamamlayın",
+    "summary": "Rezervasyon Özeti",
+    "payment": "Ödeme Detayları",
+    "confirm": "Ödemeyi Onayla",
+    "cancel": "Rezervasyonu İptal Et",
+    "checkIn": "Giriş Tarihi",
+    "checkOut": "Çıkış Tarihi",
+    "guests": "Misafir Sayısı",
+    "guest": "Misafir",
+    "totalPrice": "Toplam Fiyat",
+    "roomDetails": "Oda Detayları",
+    "specialRequests": "Özel İstekler",
+    "proceedToPayment": "Rezervasyon Oluştur",
+    "perNight": "gecelik",
+    "nights": "Gece",
+    "nightsCount": "gece",
+    "basePrice": "Temel Fiyat",
+    "taxes": "Vergiler & Ücretler",
+    "total": "Toplam",
+    "reservation": "Rezervasyon",
+    "bookingHotel": "Otel Rezervasyonu",
+    "bookingRoom": "Oda Rezervasyonu",
+    "dateConflictMessage": "Seçilen tarihlerde bu oda zaten rezerve edilmiş. Lütfen farklı tarihler seçin."
+  },
+  "admin": {
+    "dashboard": {
+      "title": "Yönetici Paneli",
+      "totalBookings": "Toplam Rezervasyonlar",
+      "revenue": "Gelir",
+      "pendingApprovals": "Bekleyen Onaylar",
+      "occupancyRate": "Doluluk Oranı",
+      "hotelManagement": "Otel Yönetimi",
+      "recentBookings": "Son Rezervasyonlar",
+      "newToday": "bugün yeni",
+      "thisMonth": "bu ay",
+      "hotelName": "Otel Adı",
+      "location": "Konum",
+      "rooms": "Odalar",
+      "occupancy": "Doluluk",
+      "actions": "İşlemler"
+    },
+    "addHotel": {
+      "title": "Yeni Otel Ekle",
+      "hotelName": "Otel Adı",
+      "description": "Açıklama",
+      "location": "Konum",
+      "imageUrl": "Resim URL'si",
+      "rooms": "Odalar",
+      "roomNumber": "Oda Numarası",
+      "roomType": "Oda Tipi",
+      "standardRoom": "Standart Oda",
+      "deluxeRoom": "Lüks Oda",
+      "suite": "Suit",
+      "price": "Fiyat",
+      "capacity": "Kapasite",
+      "addRoom": "Oda Ekle",
+      "removeRoom": "Oda Sil",
+      "submit": "Otel Ekle",
+      "eMail": "E-Posta",
+      "hotelAmenities": "Otel İmkanları",
+      "phoneNumber": "Telefon Numarası"
+    },
+      "editRoom": "Odayı Düzenle",
+    "addRoom": {
+      "title": "Yeni Oda Ekle",
+      "description": "Açıklama",
+      "location": "Konum",
+      "imageUrl": "Resim URL'si",
+      "rooms": "Odalar",
+      "roomNumber": "Oda Numarası",
+      "roomType": "Oda Tipi",
+      "standardRoom": "Standart Oda",
+      "deluxeRoom": "Deluxe Oda",
+      "suite": "Suit",
+      "price": "Fiyat",
+      "capacity": "Kapasite",
+      "addRoom": "Oda Ekle",
+      "removeRoom": "Oda Sil",
+      "submit": "Oda Ekle",
+      "eMail": "E-Posta",
+      "roomAmenities": "Oda İmkanları",
+      "phoneNumber": "Telefon Numarası"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Hesabınıza giriş yapın",
+      "email": "E-posta adresi",
+      "password": "Şifre",
+      "submit": "Giriş Yap",
+      "forgotPassword": "Şifrenizi mi unuttunuz?",
+      "noAccount": "Hesabınız yok mu?",
+      "signUp": "Kayıt Ol",
+      "signIn": "Giriş Yap",
+      "needAccount": "Hesabınız yok mu? Kayıt olun",
+      "haveAccount": "Zaten hesabınız var mı? Giriş yapın",
+      "firstName": "Ad",
+      "lastName": "Soyad",
+      "firstNameRequired": "Ad zorunludur",
+      "lastNameRequired": "Soyad zorunludur",
+      "emailRequired": "E-posta zorunludur",
+      "emailInvalid": "Geçersiz e-posta",
+      "phone": "Telefon Numarası",
+      "phoneRequired": "Telefon numarası zorunludur",
+      "phoneLength": "Telefon numarası 11 karakter olmalıdır",
+      "passwordRequired": "Şifre zorunludur",
+      "passwordMinLength": "Minimum 6 karakter",
+      "createAccount": "Hesap Oluştur",
+      "loading": "Yükleniyor...",
+      "errorMessage": "Kullanıcı adı veya şifre yanlış.",
+      "error": "Hata!"
+      }
+    },
+  "serviceRequest": {
+    "title": {
+      "customer": "Hizmet Talebi",
+      "staff": "{{name}} {{surname}} personeline atanan talepler"
+    },
+    "requestId": "Talep",
+    "roomId": "Oda ID",
+    "status": {
+      "pending": "Beklemede",
+      "in progress": "Devam Ediyor",
+      "completed": "Tamamlandı"
+    },
+    "button": {
+      "markInProgress": "Devam Ediyor Olarak İşaretle",
+      "markCompleted": "Tamamlandı Olarak İşaretle"
+    },
+    "noRequests": {
+      "message": "Henüz hizmet talebiniz yok.",
+      "link": "Rezervasyonlarıma Git"
+    },
+    "staffDashboard": {
+    "title": "Personel Paneli",
+    "name": "Ad Soyad",
+    "position": "Pozisyon",
+    "shift": "Vardiya",
+    "phone": "Telefon",
+    "hotelName": "Otel Adı",
+    "location": "Lokasyon",
+    "rating": "Puan",
+    "hotelPhone": "Otel Telefonu"
+  }
+  },
+  "home": {
+    "hero": {
+      "title": "Mükemmel Konaklamanızı Bulun",
+      "subtitle": "Lüks otelleri ve konforlu odaları en iyi fiyatlarla keşfedin",
+      "button": "Otelleri İncele"
+    },
+    "featured": {
+      "title": "Öne Çıkan Oteller",
+      "viewDetails": "Detayları Gör"
+    },
+    "reviews": {
+      "title": "Misafirlerimizin Yorumları"
+    },
+    "contact": {
+      "title": "Bize Ulaşın",
+      "subtitle": "Sorularınız mı var? Rezervasyon ihtiyaçlarınızda size yardımcı olmaya hazırız.",
+      "phone": "+1 (555) 123-4567",
+      "email": "support@cistac.com",
+      "address": "Beşyol, İnönü Cd. No:38, 34295 Küçükçekmece/İstanbul",
+      "form": {
+        "name": "İsim",
+        "email": "E-posta",
+        "message": "Mesaj",
+        "namePlaceholder": "Adınız",
+        "emailPlaceholder": "emailiniz@ornek.com",
+        "messagePlaceholder": "Mesajınız",
+        "button": "Mesaj Gönder"
+      }
+    },
+
+  "footer": {
+    "title": "CISTAC",
+    "description": "Mükemmel konaklamanızı bulmanız için güvenilir ortağınız.",
+    "quickLinks": "Hızlı Linkler",
+    "support": "Destek",
+    "newsletter": {
+      "title": "Bülten",
+      "subtitle": "Özel teklifler ve güncellemeler için abone olun.",
+      "placeholder": "E-posta adresiniz",
+      "button": "Abone Ol"
+    },
+    "links": {
+      "about": "Hakkımızda",
+      "hotels": "Otellerimiz",
+      "rooms": "Oda Tipleri",
+      "contact": "İletişim",
+      "faq": "SSS",
+      "privacy": "Gizlilik Politikası",
+      "terms": "Kullanım Şartları",
+      "cancellation": "İptal Politikası"
+    },
+    "copyright": "© 2025 CISTAC. Tüm hakları saklıdır."
+    }
+  },
+
+  "recommendationDialog": {
+    "title": "Geçmiş konaklamalarınıza göre yapay zeka tarafından önerilen odalar",
+    "room": "{{type}} Odası",
+    "roomFrom": "{{hotelName}} Otelinden Oda",
+    "moreAmenities": "+{{count}} daha...",
+    "pricePerNight": "${{price}}/gece",
+    "viewButton": "Görüntüle"
+  },
+  "hotelDetail": {
+    "aboutHotel": "Otel Hakkında",
+    "email": "E-posta",
+    "rating": "Değerlendirme",
+    "phoneNumber": "Telefon Numarası",
+    "amenities": "İmkanlar",
+    "availableRooms": "Mevcut Odalar",
+    "capacity": "Kapasite",
+    "persons": "kişi",
+    "available": "Mevcut",
+    "notAvailable": "Mevcut Değil",
+    "underMaintenance": "Bakımda",
+    "bookNow": "Şimdi Rezervasyon Yap",
+    "quickBooking": "Hızlı Rezervasyon",
+    "clearFilters": "Filtreleri Temizle",
+    "checkInDate": "Giriş Tarihi",
+    "checkOutDate": "Çıkış Tarihi",
+    "guests": "Misafirler",
+    "guest": "Misafir",
+    "guests_plural": "Misafirler",
+    "roomType": "Oda Tipi",
+    "allTypes": "Tüm Tipler",
+    "standard": "Standart",
+    "deluxe": "Deluxe",
+    "suite": "Suit",
+    "priceRange": "Fiyat Aralığı",
+    "min": "Min",
+    "max": "Maks",
+    "reviews": "Yorumlar",
+    "noReviews": "Bu otel için henüz yorum yok.",
+    "showMore": "Daha Fazla Göster",
+    "showLess": "Daha Az Göster",
+    "perNight": "gecelik",
+    "bookedFor": "Rezervasyonlu",
+    "currentlyUnavailable": "Şu anda mevcut değil"
+  },
+  "roomDetail": {
+    "close": "Kapat",
+    "roomNumber": "Oda",
+    "perNight": "gecelik",
+    "features": "Oda Özellikleri",
+    "person": "Kişi Kapasitesi",
+    "persons": "Kişi Kapasitesi",
+    "description": "Açıklama",
+    "descriptionText": "{{type}} odamızda lüks ve konforu deneyimleyin. Bu geniş oda, {{capacity}} {{guestText}} için mükemmel olup, modern imkanlar ve şık mobilyalarla rahat bir konaklama sağlar.",
+    "policies": "Oda Politikaları",
+    "checkIn": "Giriş: 14:00",
+    "checkOut": "Çıkış: 12:00",
+    "noSmoking": "Sigara İçmek Yasaktır",
+    "bookNow": "Şimdi Rezervasyon Yap",
+    "guest": "misafir",
+    "guests": "misafirler",
+    "goBack": "Geri Dön",
+    "loading": "Oda detayları yükleniyor..."
+  },
+  "hotelList": {
+    "availableHotels": "Mevcut Oteller",
+    "searchPlaceholder": "Otellerde ara...",
+    "allLocations": "Tüm Lokasyonlar",
+    "allPrices": "Tüm Fiyatlar",
+    "viewDetails": "Detayları Gör",
+    "noHotelsFound": "Kriterlerinize uygun otel bulunamadı."
+  },
+  "recommendation": {
+    "title": "Kişiselleştirilmiş Oda Önerileri",
+    "subtitle": "Geçmiş konaklamalarınıza göre önerilen en iyi odaları keşfedin",
+    "roomSuffix": "Oda",
+    "from": "Şuradan",
+    "moreText": "daha fazla...",
+    "viewButton": "Görüntüle",
+    "noRoomsTitle": "Henüz öneri bulunamadı",
+    "noRoomsText": "Öneriler sunabilmek için önceden otelde konaklamış olmanız gerekir.",
+    "night": "gece"
+  },
+  "accessDenied": {
+    "title": "Erişim Engellendi",
+    "message": "Bu sayfaya erişim yetkiniz yok.",
+    "backButton": "Anasayfaya Dön"
+  },
+  "bookingHistory": {
+    "title": "Rezervasyonlarım",
+    "sections": {
+      "ongoing": {
+        "title": "Devam Eden Rezervasyonlar",
+        "noBookings": "Henüz devam eden rezervasyonunuz yok.",
+        "reservationLabel": "Rezervasyon #{{bookingId}}",
+        "checkIn": "Giriş",
+        "checkOut": "Çıkış",
+        "total": "Toplam",
+        "requestButton": "Talep Gönder"
+      },
+      "active": {
+        "title": "Aktif Rezervasyonlar",
+        "noBookings": "Henüz aktif rezervasyonunuz yok.",
+        "reservationLabel": "Rezervasyon #{{bookingId}}",
+        "checkIn": "Giriş",
+        "checkOut": "Çıkış",
+        "total": "Toplam",
+        "leaveFeedbackButton": "Geri Bildirim Bırak"
+      },
+      "past": {
+        "title": "Geçmiş Rezervasyonlar",
+        "noBookings": "Henüz geçmiş rezervasyonunuz yok.",
+        "reservationLabel": "Rezervasyon #{{bookingId}}",
+        "checkIn": "Giriş",
+        "checkOut": "Çıkış",
+        "total": "Toplam",
+        "leaveFeedbackButton": "Geri Bildirim Bırak",
+        "yourRating": "Değerlendirmeniz: {{rating}}/5"
+      }
+    },
+    "statuses": {
+      "confirmed": "Onaylandı",
+      "completed": "Tamamlandı",
+      "pending": "Beklemede",
+      "cancelled": "İptal Edildi",
+      "checkedIn": "Giriş Yapıldı",
+      "checkedOut": "Çıkış Yapıldı"
+    },
+    "noBookingsOverall": "Henüz herhangi bir rezervasyonunuz yok."
+  },
+  "bookingPayment": {
+    "title": "Rezervasyon Özeti",
+    "roomType": "Oda Tipi",
+    "checkInDate": "Giriş Tarihi",
+    "checkOutDate": "Çıkış Tarihi",
+    "numberOfGuests": "Misafir Sayısı",
+    "totalAmount": "Toplam Tutar",
+    "paymentDetailsTitle": "Ödeme Detayları",
+    "form": {
+      "cardHolderName": "Kart Sahibinin Adı",
+      "cardNumber": "Kart Numarası",
+      "expiryDate": "Son Kullanma Tarihi",
+      "expiryDatePlaceholder": "AA/YY",
+      "cvv": "CVV",
+      "cancelButton": "İptal",
+      "confirmPaymentButton": "Ödemeyi Onayla"
+    }
+  },
+  "feedbackDialog": {
+    "title": "Geri Bildirim Bırak",
+    "overallRating": "Genel Değerlendirme",
+    "additionalComments": "Ek Yorumlar",
+    "commentPlaceholder": "Deneyiminizi paylaşın...",
+    "cancelButton": "İptal",
+    "submitButton": "Geri Bildirimi Gönder"
+  },
+  "requestDialog": {
+    "title": "Talep Gönder",
+    "additionalComments": "Ek İstekler",
+    "commentPlaceholder": "İsteklerini paylaşın...",
+    "cancelButton": "İptal",
+    "submitButton": "Talebi Gönder"
+  },
+  "contact": {
+    "title": "İletişim",
+    "subtitle": "Sorularınız mı var? Yardımcı olmak için buradayız ve sizden haber almak isteriz.",
+    "getInTouch": "İletişime Geçin",
+    "phone": "Telefon",
+    "phoneHours": "Pzt-Cum 8:00 - 18:00 arası",
+    "emailAddress": "support@cistac.com",
+    "emailResponse": "24 saat içinde yanıt vereceğiz",
+    "followUs": "Bizi Takip Edin"
+  },
+  "aboutUs": {
+    "hero": {
+      "title": "CISTAC Hakkında",
+      "description": "2020’den beri olağanüstü hizmet ve unutulmaz deneyimler sunan, güvenilir otel yönetimi ortağınız."
+    },
+    "mission": {
+      "title": "Misyonumuz",
+      "description": "Müşteri hizmetlerinde en yüksek standartları koruyarak yenilikçi teknoloji çözümleriyle otel yönetimini dönüştürmek."
+    },
+    "vision": {
+      "title": "Vizyonumuz",
+      "description": "Verimlilik, misafir memnuniyeti ve sürdürülebilir konaklama uygulamalarında dünya lideri otel yönetim sistemi olmak."
+    },
+    "coreValues": {
+      "title": "Temel Değerlerimiz",
+      "innovation": {
+        "title": "Yenilikçilik",
+        "description": "En yeni çözümleri sunmak için teknolojimizi sürekli geliştiriyoruz."
+      },
+      "customerFocus": {
+        "title": "Müşteri Odaklılık",
+        "description": "Yaptığımız her işte müşterilerimizi önceliklendiriyoruz."
+      },
+      "excellence": {
+        "title": "Mükemmeliyet",
+        "description": "Hizmetimizin her alanında mükemmeliyet için çabalıyoruz."
+      }
+    },
+    "team": {
+      "title": "Yönetim Ekibimiz",
+      "ceo": {
+        "position": "Artificial Intelligence",
+        "description": "Konaklama yönetimi ve teknoloji alanında 20+ yıl deneyim."
+      },
+      "cto": {
+        "position": "Front-End Developer",
+        "description": "Otel yönetim sistemlerinde inovasyona liderlik ediyor."
+      },
+      "coo": {
+        "position": "Back-End Developer",
+        "description": "Otel operasyonları ve müşteri hizmetlerinde uzman."
+      }
+    }
+  },
+  "inventoryManagement": {
+    "title": "Stok Yönetimi",
+    "filterByHotel": "Otele Göre Filtrele:",
+    "allHotels": "Tüm Oteller",
+    "addNewItem": "Yeni Ürün Ekle",
+    "lowStockAlert": "Düşük Stok Uyarısı",
+    "item": "Ürün",
+    "category": "Kategori",
+    "currentStock": "Mevcut Stok",
+    "lastRestocked": "Son Stoklama",
+    "actions": "İşlemler",
+    "updateStock": "Stok Güncelle",
+    "addNewInventoryItem": "Yeni Ürün Ekle",
+    "itemName": "Ürün Adı",
+    "hotel": "Otel",
+    "cancel": "İptal",
+    "addItem": "Ürün Ekle",
+    "updateStockTitle": "Stok Güncelle",
+    "update": "Güncelle",
+    "lowStockItem": "{{itemName}} (Kalan: {{currentStock}}) - ({{hotelName}})"
+  },
+   "categories": {
+    "Linens": "Çarşaflar",
+    "Toiletries": "Tuvalet Malzemeleri",
+    "Beverages": "İçecekler",
+    "Guest Supplies": "Misafir Malzemeleri",
+    "Snacks": "Atıştırmalıklar"
+  },
+  "staff-management": {
+    "title": "Personel Yönetimi",
+    "filterLabel": "Otele Göre Filtrele:",
+    "filterOptionAll": "Tüm Oteller",
+    "buttonAddStaff": "Personel Ekle",
+    "scheduleTitle": "Personel Çizelgesi",
+    "tableHeaders": {
+      "name": "İsim",
+      "role": "Görev",
+      "contact": "İletişim",
+      "shift": "Vardiya",
+      "createdAt": "Oluşturulma Tarihi",
+      "hotel": "Otel",
+      "actions": "İşlemler"
+    },
+    "modalAddTitle": "Yeni Personel Ekle",
+    "modalEditTitle": "Personel Düzenle",
+    "formLabels": {
+      "name": "İsim",
+      "surname": "Soyisim",
+      "hotel": "Otel",
+      "role": "Görev",
+      "defaultShift": "Varsayılan Vardiya",
+      "contactNumber": "İletişim Numarası",
+      "email": "E-posta"
+    },
+    "formRoleGroups": {
+      "management": "Yönetim",
+      "receptionFrontOffice": "Resepsiyon & Ön Büro",
+      "housekeepingMaintenance": "Kat Hizmetleri & Bakım",
+      "serviceCulinary": "Servis & Mutfak",
+      "spaWellness": "Spa & Wellness",
+      "activitiesSecurity": "Aktiviteler & Güvenlik"
+    },
+    "formRoles": {
+      "Manager": "Yönetici",
+      "Guest Relations Officer": "Misafir İlişkileri Görevlisi",
+      "Concierge (Chief Butler)": "Konsiyerj (Baş Uşak)",
+      "Receptionist": "Resepsiyonist",
+      "Concierge": "Konsiyerj",
+      "Bellhop": "Valet",
+      "Bellhop (St. Regis Butler)": "Valet (St. Regis Uşağı)",
+      "Housekeeping Supervisor": "Kat Hizmetleri Süpervizörü",
+      "Cleaner": "Temizlikçi",
+      "Maintenance": "Bakım Görevlisi",
+      "Waiter/Waitress": "Garson",
+      "Bartender": "Barmen",
+      "Chef": "Şef",
+      "Chef (Palace Cuisine)": "Şef (Saraya Özel Mutfak)",
+      "Chef (Resort Cuisine)": "Şef (Tatil Köyü Mutfağı)",
+      "Spa Therapist": "Spa Terapisti",
+      "Pool Attendant": "Havuz Görevlisi",
+      "Activities Coordinator": "Aktivite Koordinatörü",
+      "Security": "Güvenlik"
+    },
+    "formShifts": {
+      "Morning": "Sabah",
+      "Afternoon": "Öğleden Sonra",
+      "Night": "Gece",
+      "Day": "Gündüz",
+      "Evening": "Akşam"
+    },
+    "buttons": {
+      "cancel": "İptal",
+      "addStaff": "Personel Ekle",
+      "editStaff": "Personeli Düzenle",
+      "deleteStaff": "Personeli Sil"
+    }
+  },
+  "reservations": {
+    "title":"Tüm Rezervasyonlar",
+    "filterLabel": "Otele Göre Filtrele:",
+    "allHotels": "Tüm Oteller",
+    "tableHeader":{
+      "reservationId": "Rezervasyon Numarası",
+      "user": "İsim ve Soyisim",
+      "hotelName": "Otel Adı",
+      "roomNumber":"Oda Numarası",
+      "reservationDate":"Rezervasyon Tarihi",
+      "reservationStatus": "Rezervasyon Durumu"
+    }
+  },
+  "dashboardTabs": {
+    "hotels": "Oteller",
+    "inventory": "Envanter",
+    "staff": "Personel",
+    "reservation":"Tüm Rezervasyonlar"
+  },
+  "toastr": {
+    "success":"Başarıyla Tamamlandı,",
+    "error":"Hata! Tekrar deneyin!",
+     "login": {
+      "success": "Başarıyla giriş yapıldı!",
+      "welcome": "Hoşgeldiniz",
+      "error": "Giriş başarısız oldu. Lütfen bilgilerinizi kontrol edin.",
+      "errorTitle": "Hata"
+    },
+    "register": {
+      "success": "Başarıyla kayıt oldunuz!",
+      "error": "Kayıt başarısız oldu. Lütfen bilgilerinizi kontrol edin.",
+      "errorTitle": "Hata"
+    }
+  }
+}
+
+
